@@ -255,13 +255,13 @@ following to your `.flowconfig`:
 
 ```
 [ignore]
-.*node_modules/data-canvas.*
+\.*node_modules[/\\]data-canvas\.*
 
-[lib]
-node_modules/data-canvas/flowtype
+[libs]
+node_modules[/\\]data-canvas[/\\]flowtype
 ```
 
-
+[Windows binaries for flow](http://www.ocamlpro.com/pub/ocpwin/flow-builds/)
 [1]: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 [svg]: https://developer.mozilla.org/en-US/docs/Web/SVG
 [2]: http://alignedleft.com/tutorials/d3/binding-data/
